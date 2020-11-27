@@ -5,10 +5,10 @@ import "net/http"
 var landingTmpl = []byte(`
 <!doctype html>
 <html>
-	<head><title>Hey, I'm imgproxy!</title></head>
+	<head><title>This serivce is provided by ImgDot</title></head>
 	<body>
-		<h1>Hey, I'm imgproxy!</h1>
-		<p style="font-size:1.2em">You can get me here: <a href="https://github.com/imgproxy/imgproxy" target="_blank">https://github.com/imgproxy/imgproxy</a></p>
+		<h1>This serivce is provided by ImgDot</h1>
+		<p style="font-size:1.2em">Please visit: <a href="https://imgdot.dev" target="_blank">https://imgdot.dev</a> for details</p>
 	</body>
 </html>
 `)
